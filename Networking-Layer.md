@@ -116,7 +116,7 @@ This record contains a signature, a sequence number and a key value pair.
 >
 > ENR’s are specific to the Ethereum network and used by a node to share information about itself. For example, a node can pack arbitrary key-value pairs along with a sequence number into a record and sign it. When ENR information is relayed in the P2P network, each node can verify the authenticity of the record. The record’s sequence number allows peers to detect that their cached record is outdated. Peers can also passively learn from relayed ENRs about other nodes in the network and decide if they want to peer with them. Ideally, the node record would include more information like the purpose of a node on the network, e.g. what network they’re on, their last head, etc.
 
-![ENR Consensys](./imgs/ENR.png)
+![ENR Consensys](https://i.imgur.com/hMCeyGB.png)
 *<https://consensys.net/diligence/blog/2020/09/libp2p-multiaddr-enode-enr/>*
 
 ### devp2p
