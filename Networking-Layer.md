@@ -122,7 +122,7 @@ This record contains a signature, a sequence number and a key value pair.
 ### devp2p
 
 <https://ethereum.org/en/developers/docs/networking-layer/#devp2p>
-[This repos](https://github.com/ethereum/devp2p) contains the specifications for devp2p
+<https://github.com/ethereum/devp2p>
 
 > devp2p is itself a whole stack of protocols that Ethereum implements to establish and maintain the peer-to-peer network. After new nodes enter the network, their interactions are governed by protocols in the devp2p stack. These all sit on top of **TCP** and include the *RLPx transport protocol, wire protocol and several subprotocols*.
 >
